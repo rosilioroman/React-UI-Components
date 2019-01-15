@@ -3,10 +3,12 @@ import ButtonContainer from './components/ButtonComponents/ButtonContainer';
 import ActionButton from './components/ButtonComponents/ActionButton';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import './App.css';
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div className="calc-container">
+      <CalculatorDisplay />
       <ButtonContainer>
         <NumberButton buttonStyle="number-button standard-btn" text="7"/>
         <NumberButton buttonStyle="number-button standard-btn" text="8"/>
