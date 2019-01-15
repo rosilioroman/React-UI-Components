@@ -19,6 +19,18 @@ const App = () => {
         <NumberButton buttonStyle="number-button standard-btn" text="9"/>
         <NumberButton buttonStyle="number-button operator-btn" text="X"/>
       </ButtonContainer>
+      <ButtonContainer>
+        <NumberButton buttonStyle="number-button standard-btn" text="4"/>
+        <NumberButton buttonStyle="number-button standard-btn" text="5"/>
+        <NumberButton buttonStyle="number-button standard-btn" text="6"/>
+        <NumberButton buttonStyle="number-button operator-btn" text="-"/>
+      </ButtonContainer>
+      <ButtonContainer>
+        <NumberButton buttonStyle="number-button standard-btn" text="1"/>
+        <NumberButton buttonStyle="number-button standard-btn" text="2"/>
+        <NumberButton buttonStyle="number-button standard-btn" text="3"/>
+        <NumberButton buttonStyle="number-button operator-btn" text="+"/>
+      </ButtonContainer>
     </div>
   );
 };
