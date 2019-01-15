@@ -3,9 +3,9 @@
   IF you'd like to attempt to use less you'll have to research how to do this with Create React App
 */
 .app-container {
-  width: 45%;
-  height: 500px;
-  margin: 1.6rem auto;
+  margin: 0 auto;
+  max-width: 590px;
+  height: 515px;
   border: 1px solid black;
   display: flex;
   flex-direction: column;

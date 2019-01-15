@@ -4,9 +4,9 @@ import './Card.css';
 function CardContent() {
     return (
         <div className="card-content">
-            <p className="card-text-content">Get started with React</p>
+            <h3 className="card-text-heading">Get started with React</h3>
             <p className="card-text-content">React makes it painless to create interactive UIs. Design simple views for each state in your application.</p>
-            <a href="https://reactjs.org">reactjs.org</a>
+            <a className="card-text-content" href="https://reactjs.org">reactjs.org</a>
         </div>
     );
 }
