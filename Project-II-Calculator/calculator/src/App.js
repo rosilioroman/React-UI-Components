@@ -6,12 +6,12 @@ import './App.css';
 
 const App = () => {
   return (
-    <div className="app-container">
+    <div className="calc-container">
       <ButtonContainer>
-        <NumberButton bgColor="number-button" text="7"/>
-        <NumberButton bgColor="number-button" text="8"/>
-        <NumberButton bgColor="number-button" text="9"/>
-        <NumberButton bgColor="number-button" text="X"/>
+        <NumberButton buttonStyle="number-button standard-btn" text="7"/>
+        <NumberButton buttonStyle="number-button standard-btn" text="8"/>
+        <NumberButton buttonStyle="number-button standard-btn" text="9"/>
+        <NumberButton buttonStyle="number-button operator-btn" text="X"/>
       </ButtonContainer>
     </div>
   );
