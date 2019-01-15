@@ -33,7 +33,7 @@ const App = () => {
       </ButtonContainer>
       <ButtonContainer className="zero-row">
         <ActionButton className="zero-btn" text="0"/>
-        <NumberButton buttonStyle="number-button operator-btn" text="0"/>
+        <NumberButton buttonStyle="number-button operator-btn" text="="/>
       </ButtonContainer> 
     </div>
   );
