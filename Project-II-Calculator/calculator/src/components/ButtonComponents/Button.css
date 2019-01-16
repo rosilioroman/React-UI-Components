@@ -1,0 +1,35 @@
+.number-button {
+    width: 25%;
+    height: 50px;
+    font-weight: bold;
+    border: 1px solid grey;
+}
+
+.action-button {
+    width: 75%;
+    height: 50px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.standard-btn {
+    background-color: white;
+}
+
+.operator-btn {
+    background-color: red;
+    color: white;
+    height: 50px;
+}
+
+.zero-btn {
+    font-weight: bold;
+}
+
+.clear-row {
+    border-top: 1px solid grey;
+}
+
+.zero-row {
+    border-bottom: 1px solid grey;
+}
